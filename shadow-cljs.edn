@@ -2,6 +2,7 @@
 {:deps
  {:aliases [:cljs]}
 
+  
  :dev-http
  {8020 "public"}
 

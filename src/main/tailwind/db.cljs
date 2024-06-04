@@ -3,3 +3,11 @@
 
 (defonce state (r/atom {:auth? true
                         :user-dropdown? true}))
+
+
+
+(def default-db
+  {
+    :counter 0   
+   }
+  )

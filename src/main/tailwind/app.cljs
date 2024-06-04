@@ -5,9 +5,22 @@
 
 (defn app
   []
-  (if (:auth? @db/state)
+  (comment 
+    
+    (if (:auth? @db/state)
     [views/authenticated]
-    [views/public]))
+    [views/public]
+    )
+
+    )
+   ; [views/counter-view]
+    ; [views/menu-comp]
+     ; [views/desktop-header]
+  
+     ;[:f> views/menu-view]
+      [:f> views/drop-down]
+  
+  )
 
 ;; start is called by init and after code reloading finishes
 (defn ^:dev/after-load start []
