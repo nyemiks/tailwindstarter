@@ -1,3 +1,6 @@
+A simple app that uses re-frame and tailwind css framework. Uses shadow cljs tailwind template 
+
+
 # shadow-cljs + tailwindcss
 
 This is an example of how to setup shadow-cljs and [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
